@@ -1,0 +1,48 @@
+{
+  "name": "calculadora-de-precios",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@types/html-minifier": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.4.5",
+    "postcss-load-config": "^3.1.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
+    "svelte": "^3.44.2",
+    "svelte-check": "^2.2.10",
+    "svelte-preprocess": "^4.9.8",
+    "tailwindcss": "^3.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@felte/reporter-tippy": "^0.3.10",
+    "@felte/validator-yup": "^0.2.10",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "felte": "^0.8.6",
+    "tippy.js": "^6.3.7",
+    "yup": "^0.32.11"
+  }
+}
