@@ -134,7 +134,11 @@
 
               <div class="flex-1 pt-2 flex items-end justify-between">
                 <p class="mt-1 text-sm font-medium text-gray-900">
-                  ${centsToString(total)} USD
+                  ${centsToString(precioConDescuento)} USD {#if !incluyeIVA}<span
+                      class="text-gray-600"
+                    >
+                      (+ IVA)</span
+                    >{/if}
                 </p>
               </div>
             </div>
